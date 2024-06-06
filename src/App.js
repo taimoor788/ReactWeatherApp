@@ -56,6 +56,7 @@ function App() {
         <title>{search ? `Weather in ${search} - Check Today's Weather` : 'Weather App'}</title>
         <meta name="description" content={search ? `today weather of ${search}. weakly weather ${search}. weather ${search}` : 'Get the latest weather updates. Check today\'s weather in your city.'} />
       </Helmet>
+      <div className='container'>
       <div className="App">
         <h1>Weather App</h1>
         <input 
@@ -91,6 +92,7 @@ function App() {
             </div>
           </>
         )}
+      </div>
       </div>
     </>
   );
