@@ -97,6 +97,27 @@ p {
   font-size: 1rem;
 }
 
+/* Suggestions styling */
+.suggestions {
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+
+.suggestions div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions div:hover {
+  background-color: #f0f0f0;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 600px) {
   body {
